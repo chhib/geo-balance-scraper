@@ -1,3 +1,4 @@
+/*
 const xact_url = 'https://handelsbanken-marknadsinformation.se/app/instrument/SHBSABTIi/2365/Historik'
 const xact_selector = 'instrumenthistory history table'
 const puppeteer = require('puppeteer');
@@ -14,3 +15,4 @@ const html_table_to_json = require('html-table-to-json');
   await browser.close();
 })();
 
+*/
