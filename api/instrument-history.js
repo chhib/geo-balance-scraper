@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const html_table_to_json = require('html-table-to-json');
 
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
 
   [ url, selector ] = req.query;
 
